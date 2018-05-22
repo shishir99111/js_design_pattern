@@ -6,7 +6,7 @@ var repo = function() {
   var db = {};
 
   function get(id) {
-    console.log('getting data for the id ', id);
+    console.log(`getting data for the id ${id}`);
     return { name: 'data from DB' }
   }
 

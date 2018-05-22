@@ -4,12 +4,12 @@ var Task = function(name) {
 }
 
 Task.prototype.complete = function() {
-  console.log('completing task: ' + this.name);
+  console.log(`completing task: ${this.name}`);
   this.completed = true;
 }
 
 Task.prototype.save = function() {
-  console.log('saving task: ' + this.name);
+  console.log(`saving task: ${this.name}`);
 }
 
 var task1 = new Task('create a demo for constructor');

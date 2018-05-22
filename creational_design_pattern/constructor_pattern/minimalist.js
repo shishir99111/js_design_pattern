@@ -2,13 +2,13 @@ var Task = function(name) {
   this.name = name;
   this.completed = false;
 
-  this.completed = function() {
-    console.log('completing task: ' + this.name);
+  this.completed = () => {
+    console.log(`completing task: ${this.name}`);
     this.completed = true;
   }
 
-  this.save = function() {
-    console.log('saving task: ' + this.name);
+  this.save = () => {
+    console.log(`saving task: ${this.name}`);
   }
 }
 
