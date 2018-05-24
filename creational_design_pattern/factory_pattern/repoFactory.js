@@ -9,6 +9,7 @@ var repoFactory = function() {
       repos[repo.name] = require(repo.source)
     })
   }
+  // less optimized solution
   // var repoFactory = function () {
   // 	this.getRepo = function(repoType) {
   // 		if(repoType === 'task'){
