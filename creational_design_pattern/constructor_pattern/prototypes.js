@@ -3,7 +3,7 @@ var Task = function(name) {
   this.completed = false;
 }
 
-Task.prototype.complete = function() {
+Task.prototype.completed = function() {
   console.log(`completing task: ${this.name}`);
   this.completed = true;
 }
